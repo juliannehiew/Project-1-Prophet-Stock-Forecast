@@ -37,7 +37,7 @@ Identify the calculations that can be done with datetime data
   
   
   Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All
-  ## ![AMZ Tading Volume](
+  ## ![AMZ Tading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/AMZN%20Trading%20Volume.jpg)
   
   
   
