@@ -28,7 +28,14 @@ Identify the calculations that can be done with datetime data
   
   
  # Part 3: Data Visualisation
- Recreate this linear plot of all the stocks' Open price
+ Recreate this plot of AMZN stock price
+ ## ![Amazon Share price](                       )
+  
+  
+  
+  
+  
+  
   
   
   
