@@ -28,11 +28,14 @@ Identify the calculations that can be done with datetime data
   
   
  # Part 3: Data Visualisation
- Plot of AMZN stock price
+ Plot AMZN stock price
  ## ![Amazon Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20Share%20Prices.JPG?raw=true)
   
+  Plot TSLA stock price
+ ## ![Tesla Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Share%20Prices.JPG?raw=true) 
+
   
-Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All  
+  Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All  
   
   
   
