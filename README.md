@@ -35,7 +35,9 @@ Identify the calculations that can be done with datetime data
  ## ![Tesla Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Share%20Prices.JPG?raw=true) 
 
   
-  Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All  
+  
+  Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All
+  ## ![AMZ Tading Volume](
   
   
   
