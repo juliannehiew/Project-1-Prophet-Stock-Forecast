@@ -2,7 +2,7 @@
 # Time Series Forecast with Prophet
 
 ## Introduction:
-This is a simple kernel in which we will forecast stock prices using Prophet. Although historical prices do not represent the future prices, historical prices are being studied to provide an overview and gain insights into overperform or underperform of the stock prices.  
+This is a simple kernel in which we will forecast stock prices using Prophet. Although historical prices do not represent the future prices, interpreting historical prices can enhance the insights into overperform or underperform and identify the degree of volatility of the stock prices.  
 
 
 ## A Summary about Prophet:
@@ -90,7 +90,7 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
  
  ## ![Scatter Plot Dashboard](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20stocks%20-%20Panel%20Dashboard.JPG)
  
- The scatter plot in this dashboard is a special type of graph designed to identify the relationship between two or more variables. With regression analysis, we visually inspect the data to see whether X and Y are linearly related. With reference to these plots, the graph isn't a straight line, the relationship between AMZN and TSLA is nonlinear because they are considered as different industries.  Similarly, nonlinear relationship is identified between AMZN and SPY, or TSLA and SPY.
+ The scatter plot in this dashboard is a special type of graph designed to identify the relationship between two or more variables. With regression analysis, we visually inspect the data to see whether X and Y are linearly related. With reference to these plots, the graph isn't a straight line, the relationship between AMZN and TSLA is non-linear because they are in different industries.  Similarly, non-linear relationship is identified between AMZN and SPY, or TSLA and SPY.  There's no meaningful correlation in these 3 stocks.
   
   
   Rolling Statistics - AMZN
@@ -99,8 +99,11 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   Standard Deviation - AMZN
  ## ![Standard Deviation - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Standard%20Deviation%2030%20Days.JPG)
  
+ Standard deviation is a useful tool in investing and trading strategies as it helps measure market and security volatility and predicts performance trends.  Despite a lower standard deviation represents a stable blue-chip stock, it isn't necessarily preferable. It all depends on the investments and the investor's willingness to assume risk. When dealing with the amount of deviation in their portfolios, investors should consider their tolerance for volatility and their overall investment objectives. More aggressive investors may be comfortable with an investment strategy that opts for vehicles with higher-than-average volatility, while more conservative investors may not.  
  
+ With reference to the chart, TSLA has a high standard deviation particularly during May and September 2020.  As such it is regarded as a volatile stock.  One of the factors contributing to the soring prices during April/May 2020 relates to the positive news on the expansion of Tesla's Shanghai factory.  Following this, the analysts have updraded the stock price, which led to a price surge. 
  
+ The drawback of standard deviation assumes a normal distribution and calculates all uncertainty as risk. 
   
   # Part 5: Moving Averages
   
@@ -116,10 +119,16 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
  
  # Part 6: Volatity
+ ## ![Combined Stocks Daily Return](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Daily%20Returns.JPG)
+ 
+ 
   ## ![Combined Stocks 21 Days Deviation](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20Standard%20Deviation.JPG)
   
   
   ## ![Combined Stocks 21 Days Rolling](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20rolling%20mean.JPG)
+  
+  
+  These datasets are noisy, displaying large momentums of each stocks, especially TSLA.  The sharp plung of TSLA stocks on end of August 2020 is closely associated with the drop in registrations of EV in China as mentioned above.   
   
   
   # Part 7: Risk Analysis
