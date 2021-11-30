@@ -1,4 +1,4 @@
-# Prophet Forecast
+# Amazon Prophet Forecast
 # Time Series Forecast with Prophet
 
 ## Introduction:
@@ -6,10 +6,12 @@ This is a simple kernel in which we will forecast stock prices using Prophet. Al
 
 
 ## A Summary about Prophet:
-Facebook's research team has come up with an easier implementation of forecasting through it's new library called Prophet. According to some analysts that prophet can produce high quality forecasting data. This is one of the reasons why Facebook's research team came to an easily approachable way for using advanced concepts for time series forecasting and the Python users.  For further reading, please refer to  [Prophet Blog](https://research.fb.com/prophet-forecasting-at-scale/). Prophet's team main goal is to to make it easier for experts and non-experts to make high quality forecasts that keep up with demand.
+Facebook's research team has come up with an easier implementation of forecasting through it's new library called Prophet. According to some analysts that prophet can produce high quality forecasting data. This is one of the reasons why Facebook's research team came to an easily approachable way for using advanced concepts for time series forecasting and the Python users.  For further reading, please refer to  [Prophet Blog](https://research.fb.com/prophet-forecasting-at-scale/). Prophet's team main goal is to make it easier for experts and non-experts to make high quality forecasts that keep up with demand.
 
 # Background
-We'll be analyzing stock data related to Amazon (online retail stocks), Tesla ( Electric vehicles), S&P 500 for the period of July 2018 to November 2021. The main reason for selecting Amazon stock in this analysis is due to its popularity being known as one of the top pick among U.S. Internet Stocks.  According to Goldman Sachs Group Inc., Amazon is poised to outperform in 2022 as it benefits from resurgent growth in a range of markets, including e-commerce, cloud computing and advertising.  Next, in a fast-changing world Tesla has gained massive stock growth and now sports a market capitalisation of $777 billion.
+Three stock data related to Amazon (online retail stocks), Tesla ( Electric vehicles), S&P 500 for the period of July 2018 to November 2021 will be analysed in this stock analysis. The main reason for selecting Amazon stock is due to its popularity being known as one of the top pick among U.S. Internet Stocks.  According to Goldman Sachs Group Inc., Amazon is poised to outperform in 2022 as it benefits from resurgent growth in a range of markets, including e-commerce, cloud computing and advertising.  Next, in a fast-changing world, Tesla that achieved a massive stock growth has sports a market capitalisation of $1.137 Trillion, resulting in the world's 6th most valuable company is selected for comparison purposes.  Thirdly, S&P 500 is used as a benchmark in this analysis due to its central advantage being the wide market breadth of the large-cap companies included in the index. The index can provide a broad view of the economic health of the United States.
+
+In addition to its broad scope, another advantage of the S&P 500 is that components of the index are updated on a quarterly basis. A committee determines which companies to include in the index. The factors considered include a market capitalization in excess of $6.1 billion, a public float of at least 50 percent, headquarters in the U.S., adequate liquidity and financial viability.
   
 
 # Part 1: Import various libraries and dependencies
@@ -17,11 +19,11 @@ Collect Investments Data Using Alpaca: AMZN, TSLA, SPY
 
   
  # Part 2: Data Cleaning 
-Create DataFrames from CSV files and use basic commands to manipulate them
-Clean data using the DataFrame built-in commands
-Manipulate data using DataFrame indexes
-Describe the basic theory and calculations of returns using Pandas
-Manipulate datetime data in single variable, DataFrame columns, and Series formats
+Create DataFrames from CSV files and use basic commands to manipulate them.
+Clean data using the DataFrame built-in commands.
+Manipulate data using DataFrame indexes.
+Describe the basic theory and calculations of returns using Pandas.
+Manipulate datetime data in single variable, DataFrame columns, and Series formats.
 
   
   
@@ -35,8 +37,8 @@ Manipulate datetime data in single variable, DataFrame columns, and Series forma
  
   
 
-  Volume Traded and Interpretation for AMZN
-  Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year, all
+  Volume Traded and Interpretation 
+  AMZN Trading Volume - 1month, 6months, YTD, 1 year, all
   ## ![AMZ Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/AMZN%20Trading%20Volume.jpg)
   
   
@@ -54,11 +56,11 @@ Manipulate datetime data in single variable, DataFrame columns, and Series forma
   TSLA stock price
  ## ![Tesla Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Share%20Prices.JPG?raw=true) 
 
-Tesla operates through two segments: Automotive, and Energy generation and storage. It occupies a market-leading position in the electric car industry and is pioneering much of the road towards self-driving vehicles – and with many politicians ostensibly backing a green recovery after the coronavirus pandemic, the value of cleaner technology looks ever greater.  Having said, much of the 2020 share price rise has also been ascribed to a scramble by non-professional investors shorting on the Tesla name. More than 450,000 small investors have bought Tesla shares through the commission-free Robinhood trading platform in the US. On one single day in July there were 50,000 new Tesla investors, according to The Guardian, 2020.  Analysts from Morgan Stanley warned that Tesla is “grossly overvalued” and that the share price would plunge.
+Meanwhile, Tesla operates through two segments: Automotive, and Energy generation and storage. It occupies a market-leading position in the electric car industry and is pioneering much of the road towards self-driving vehicles – and with many politicians ostensibly backing a green recovery after the coronavirus pandemic, the value of cleaner technology looks ever greater.  Having said, much of the 2020 share price rise has also been ascribed to a scramble by non-professional investors shorting on the Tesla name. More than 450,000 small investors have bought Tesla shares through the commission-free Robinhood trading platform in the US. On one single day in July there were 50,000 new Tesla investors, according to The Guardian, 2020.  Analysts from Morgan Stanley warned that Tesla is “grossly overvalued” and that the share price would plunge.
   
   
   
-  Volume Traded and Interpretation for TSLA
+  Volume Traded and Interpretation 
   TSLA Trading Volume - 1month, 6months, YTD, 1 year,All
   ## ![TSLA Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Trading%20Volume.JPG)
   
@@ -70,13 +72,14 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
   ## ![TSLA Highest Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/TSLA%20Highest%20Traded%20Volume.JPG)
   
-  Tesla shares continued to rise after in particular it overtook Toyota as the world's most valuable company in July.  The share price was further fuelled by the announcement of a 5 for 1 split on August 28, in which the share price reset from $2,230 to a far more accessible $446 - which technically should not affect the company valuation but makes the price for each individual share more attainable for small investors.  Prices surged by 13% on the same day, resulting in the comapny's stock price appreciated nbearly 500% between January 1 and August 31 2020, according to Nasdaq.
-  On the other hand, there's a mixed bag of news when Tesla encountered some setbacks in China. With the rapid increasing competition in the EV market, along with Chinese electric vehicle maker NIO and the European carmakers, Tesla's China registation has dropped in July, but investors were hoping for continue momentum.
+  Tesla shares continued to rise after in particular it overtook Toyota as the world's most valuable company in July.  The share price was further fuelled by the announcement of a 5 for 1 split on August 28, in which the share price reset from $2,230 to a far more accessible $446 - which technically should not affect the company valuation but makes the price for each individual share more attainable for small investors.  Prices surged by 13% on the same day, resulting in the company's stock price appreciated nearly 500% between January 1 and August 31 2020, according to Nasdaq.
+  On the other hand, there's a mixed bag of news when Tesla encountered some setbacks in China. With the rapid increasing competition in the EV market, along with Chinese electric vehicle maker NIO and the European carmakers, Tesla's China registation has dropped in July 2020, but investors were hoping for continue momentum.
+  Following this, Tesla dreams about making it into S&P 500 Index is about to become reality. Unfortunately, in September 2020 at the very last the firm is passed over for entry, and a lot of people are very disappointed. When news lands that it wouldn’t be included, the share price plummets 21.06% in the worst single day loss in the company’s history.  However, it’s always darkest before the dawn. The next day proved much more promising, perhaps as investors began to suspect shares had been oversold. Prices steadily rose, jumping around 11% on September 9. Even so, after its ground-breaking August, prices dropped from $2,510.70 on September 1 to $1,651.05 at closing on September 8.
   
   
   
   # Market Cap
-  The Open Price Time Series Visualization makes Tesla shares look more attractive. But to really understand this we would need to look at the total market cap of the company, not just the stock price. Unfortunately our current data doesn't have that information of total units of stock present. But what we can do as a simple calcualtion to try to represent total money traded would be to multply the Volume column by the Open price. Remember that this still isn't the actual Market Cap, its just a visual representation of the total amount of money being traded around using the time series. (e.g. 100 units of stock at $10 each versus 100000 units of stock at $1 each)
+  The Open Price Time Series Visualization makes Tesla shares look more attractive. Notwithstanding, we would need to look at the total market cap of the company, not just the stock price. Unfortunately our current data doesn't have sufficient information of total units of stock present. As such a simple calcualtion to try to represent total money traded would be applied to multply the Volume column by the Open price. A reminder that this still isn't the actual Market Cap, its just a visual representation of the total amount of money being traded around using the time series. (e.g. 100 units of stock at $10 each versus 100000 units of stock at $1 each)
   
   ## ![Market - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/AMZN%20Total%20Traded.JPG)
   
@@ -90,7 +93,7 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
  
  ## ![Scatter Plot Dashboard](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20stocks%20-%20Panel%20Dashboard.JPG)
  
- The scatter plot in this dashboard is a special type of graph designed to identify the relationship between two or more variables. With regression analysis, we visually inspect the data to see whether X and Y are linearly related. With reference to these plots, the graph isn't a straight line, the relationship between AMZN and TSLA is non-linear because they are in different industries.  Similarly, non-linear relationship is identified between AMZN and SPY, or TSLA and SPY.  There's no meaningful correlation in these 3 stocks.
+ The scatter plot in this dashboard is a special type of graph designed to identify the relationship between two or more variables. With regression analysis, we visually inspect the data to see whether X and Y are linearly related. With reference to these plots, the graph isn't a straight line, the relationship between AMZN and TSLA is proven to be non-linear because they are in different industries.  Similarly, non-linear relationship is identified between AMZN and SPY, or TSLA and SPY.  In short, there's no meaningful correlation in these 3 stocks.
   
   
   Rolling Statistics - AMZN
@@ -101,9 +104,9 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
  
  Standard deviation is a useful tool in investing and trading strategies as it helps measure market and security volatility and predicts performance trends.  Despite a lower standard deviation represents a stable blue-chip stock, it isn't necessarily preferable. It all depends on the investments and the investor's willingness to assume risk. When dealing with the amount of deviation in their portfolios, investors should consider their tolerance for volatility and their overall investment objectives. More aggressive investors may be comfortable with an investment strategy that opts for vehicles with higher-than-average volatility, while more conservative investors may not.  
  
- With reference to the chart, TSLA has a high standard deviation particularly during May and September 2020.  As such it is regarded as a volatile stock.  One of the factors contributing to the soring prices during April/May 2020 relates to the positive news on the expansion of Tesla's Shanghai factory.  Following this, the analysts have updraded the stock price, which led to a price surge. 
+ With reference to the chart, TSLA has a high standard deviation particularly during May and September 2020.  As such it is regarded as a volatile stock.  One of the factors contributing to the soaring prices during April/May 2020 is driven by the positive news on the expansion of Tesla's Shanghai factory.  Following this, the analysts have upgraded the stock price, which led to a price surge as a result. 
  
- The drawback of standard deviation assumes a normal distribution and calculates all uncertainty as risk. 
+ Having said, the drawback of standard deviation assumes a normal distribution and calculates all uncertainty as risk. 
   
   # Part 5: Moving Averages
   
@@ -119,7 +122,12 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
  
  # Part 6: Volatity
+ Which stock is the most volatile?
+ 
  ## ![Combined Stocks Daily Return](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Daily%20Returns.JPG)
+ 
+ 
+ ## ![Combined Stocks Density of Daily Returns](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Standard%20Deviation.JPG)
  
  
   ## ![Combined Stocks 21 Days Deviation](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20Standard%20Deviation.JPG)
@@ -128,7 +136,7 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   ## ![Combined Stocks 21 Days Rolling](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20rolling%20mean.JPG)
   
   
-  These datasets are noisy, displaying large momentums of each stocks, especially TSLA.  The sharp plung of TSLA stocks on end of August 2020 is closely associated with the drop in registrations of EV in China as mentioned above.   
+  These datasets are considered noisy, displaying large momentums of each stocks, especially TSLA.  The sharp plunge of TSLA stocks on end of August 2020 is closely associated with the drop in registrations of EV in China as mentioned above.   
   
   
   
@@ -143,7 +151,7 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
  
  ## ![Combined Stocks Risk Analysis](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Risk%20Analysis.JPG)
  
- In comparision of the three stocks, TSLA has the most outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are mor condensed.  
+ In comparision of the three stocks, TSLA has the most outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are more condensed.  
  
  
   # Part 8 : Cumulative Return
@@ -151,6 +159,14 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
 A cumulative return on an investment is the aggregate amount that the investment has gained or lost over time, independent of the amount of time involved. The cumulative return is expressed as a percentage in the graph.  The above results implied that TSLA has the best cumulative return as compared to AMZN and SPY. 
 
+
+
+# AMAZON PROPHET FORECAST ANALYSIS STARTS
+
+Amazon Stock Price Forecast
+## ![Amazon Stock Price Forecast](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20Stock%20Price%20Forecast.JPG)
+
+## ![Monthly Prediction](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Monthly%20Prediction.JPG)
 
 
 # Summary
@@ -168,4 +184,4 @@ Earnings results for the quarter ended September 2021 (Q3) from the leading publ
 
 
 
-Disclaimer: This material contains general market commentary.  It does not constitute investment research or personal advice. The opinions expressed are based exploratory data analysis and predictive data analysis.
+Disclaimer: This material contains general market commentary.  It does not constitute investment research or personal advice. The opinions expressed are based on exploratory data analysis and predictive data analysis.
