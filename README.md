@@ -145,6 +145,12 @@ A cumulative return on an investment is the aggregate amount that the investment
 
 
 
+# Summary
+
+Even with those mixed market moves, AMZN, SPY, and SPY continue to show strength and eventually pushed the major averages higher. Investors are moving into tech stocks broadly as U.S. Treasury yields took a dip of roughly 2 basis points as of writing. Amazon has gained 4% as its first cashierless coffeeshop, which it partnered on with Starbucks, opened in New York. It also got a lift from continued positive momentum in retail, particularly in digital.
+
+
+AMZN shares surged 8.3% after the company reported beats on the top and bottom lines and issued a bullish revenue forecast for the current quarter ending in January. The chipmaker saw a 55% gain in data center sales from the same period a year ago and a 42% increase in gaming, its biggest market. The gain brought its market value to $791 billion.
 
 
 
