@@ -75,10 +75,13 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
   
   
+  # Market Cap
+  The Open Price Time Series Visualization makes Tesla shares look more attractive. But to really understand this we would need to look at the total market cap of the company, not just the stock price. Unfortunately our current data doesn't have that information of total units of stock present. But what we can do as a simple calcualtion to try to represent total money traded would be to multply the Volume column by the Open price. Remember that this still isn't the actual Market Cap, its just a visual representation of the total amount of money being traded around using the time series. (e.g. 100 units of stock at $10 each versus 100000 units of stock at $1 each)
   
   
   
   
+
  # Part 4 : Correlation and Scatter Matrix
  
  ## ![Scatter Plot Dashboard](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20stocks%20-%20Panel%20Dashboard.JPG)
