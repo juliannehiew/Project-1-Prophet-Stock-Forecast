@@ -131,12 +131,24 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   These datasets are noisy, displaying large momentums of each stocks, especially TSLA.  The sharp plung of TSLA stocks on end of August 2020 is closely associated with the drop in registrations of EV in China as mentioned above.   
   
   
-  # Part 7: Risk Analysis
+  # Part 7: Comparision of Stock Performance
   
  ## ![Combined Stocks Risk Analysis](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Risk%20Analysis.JPG)
+ 
+ In comparision of the three stocks, TSLA has some outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are mor condensed.  
  
  
   # Part 8 : Cumulative Return
   ## ![Combined Stocks Cumulative Returns](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Cumulative%20Returns.JPG)
   
 A cumulative return on an investment is the aggregate amount that the investment has gained or lost over time, independent of the amount of time involved. The cumulative return is expressed as a percentage in the graph.  The above results implied that TSLA has the best cumulative return as compared to AMZN and SPY. 
+
+
+
+
+
+
+
+
+
+Disclaimer: This is far from a financial advice on whether a particular stock is a better one or not but rather a sort of analysis on gaining an insight into performance and consistency of stocks data over a specified length of time.  In essence, there is the exploratory data analysis, there is the predictive data analysis, using statistics to gain insights from data however could be said to fall within the sphere of descriptive data analysis which is to show or summarize data in a meaningful way but not really giving an overall conclusions regarding same.
