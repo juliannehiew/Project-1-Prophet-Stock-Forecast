@@ -77,7 +77,27 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
   
   
+  
+  
+ # Part 4 : Correlation and Scatter Matrix
+ 
+ ## ![Scatter Plot Dashboard](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20stocks%20-%20Panel%20Dashboard.JPG)
+ 
  
   
  
+ # Part 5: Volatity
+  ## ![Combined Stocks 21 Days Deviation](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20Standard%20Deviation.JPG)
+  
+  
+  ## ![Combined Stocks 21 Days Rolling](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%2021%20Days%20rolling%20mean.JPG)
+  
+  
+  # Part 6: Risk Analysis
+  
+ ## ![Combined Stocks Risk Analysis](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Risk%20Analysis.JPG)
+ 
+ 
+  # Part 7 : Cumulative Return
+  ## ![Combined Stocks Cumulative Returns](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Cumulative%20Returns.JPG)
   
