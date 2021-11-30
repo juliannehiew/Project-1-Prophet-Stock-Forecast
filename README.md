@@ -59,7 +59,7 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   
   
   Volume Traded and Interpretation for TSLA
-  Plot TSLA Trading Volume - 1month, 6months, YTD, 1 year,All
+  TSLA Trading Volume - 1month, 6months, YTD, 1 year,All
   ## ![TSLA Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Trading%20Volume.JPG)
   
   
@@ -84,18 +84,35 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   ## ![Market - TSLA](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/TSLA%20Total%20Traded.JPG)
   
 
- # Part 4 : Correlation and Scatter Matrix
+ # Part 4 : Visualize trends through rolling statistics that smooth datasets and minimize data noise.
+ 
+ Correlation and Scatter Matrix
  
  ## ![Scatter Plot Dashboard](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20stocks%20-%20Panel%20Dashboard.JPG)
  
  The scatter plot in this dashboard is a special type of graph designed to identify the relationship between two or more variables. With regression analysis, we visually inspect the data to see whether X and Y are linearly related. With reference to these plots, the graph isn't a straight line, the relationship between AMZN and TSLA is nonlinear because they are considered as different industries.  Similarly, nonlinear relationship is identified between AMZN and SPY, or TSLA and SPY.
   
   
-  # Part 5: Moving Average
+  Rolling Statistics - AMZN
+ ## ![Rolling Statistics - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Rolling%20Statitics%2030%20Days.JPG)
+ 
+  Standard Deviation - AMZN
+ ## ![Standard Deviation - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Standard%20Deviation%2030%20Days.JPG)
+ 
+ 
+ 
   
-   ## ![Moving Averages - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Moving%20Average%20and%20Closing%20Price.JPG)
+  # Part 5: Moving Averages
+  
+  Moving Averages - AMZN
+   ## ![Moving Averages - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Moving%20Averages.JPG)
    
-   ## ![Moving Averages - TSLA](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Moving%20Average%20and%20Closing%20Price.JPG)
+   Moving Averages - TSLA
+   
+   ## ![Moving Averages - TSLA](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/TSLA%20-%20Moving%20Averages.JPG)
+   
+   
+   Moving averages are an important analytical tool used to identify current price trends and the potential for a change in an established trend. The simplest use of a Simple Moving Average in technical analysis is using it to quickly identify if a security is in an uptrend or downtrend. Another popular, albeit slightly more complex, analytical use is to compare a pair of simple moving averages with each covering different time frames. If a shorter-term simple moving average is above a longer-term average, an uptrend is expected. On the other hand, if the long-term average is above a shorter-term average then a downtrend might be the expected outcome.
   
  
  # Part 6: Volatity
@@ -113,3 +130,4 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   # Part 8 : Cumulative Return
   ## ![Combined Stocks Cumulative Returns](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Cumulative%20Returns.JPG)
   
+A cumulative return on an investment is the aggregate amount that the investment has gained or lost over time, independent of the amount of time involved. The cumulative return is expressed as a percentage in the graph.  The above results implied that TSLA has the best cumulative return as compared to AMZN and SPY. 
