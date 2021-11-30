@@ -151,7 +151,7 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
  
  ## ![Combined Stocks Risk Analysis](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Risk%20Analysis.JPG)
  
- In comparision of the three stocks, TSLA has the most outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are more condensed.  
+ In comparision of the three stocks, TSLA has the most outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect to the box plot, SPY has the narrowest box that indicates the interquartile range of +-25% from the mean is more condensed than the interquartile range of +-25% from the mean of AMZN. Although this spread of the data points of Amazon is smaller than the spread of the data points of SPY.
  
  
   # Part 8 : Cumulative Return
