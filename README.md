@@ -131,11 +131,19 @@ Tesla operates through two segments: Automotive, and Energy generation and stora
   These datasets are noisy, displaying large momentums of each stocks, especially TSLA.  The sharp plung of TSLA stocks on end of August 2020 is closely associated with the drop in registrations of EV in China as mentioned above.   
   
   
+  
+  
+  
+  
   # Part 7: Comparision of Stock Performance
   
+ One of the most commonly used and talked about risk measures in investing is the Sharpe Ratio. Sharpe Ratio tells an analyst the return per unit of risk. In other words, how much extra return you will receive per unit of risk that you take on.  Any Sharpe Ratio above 1.00 generally means the portfolio or stock is acceptable to hold because you are receiving an excess return per unit of risk. Anything above 2.00 or 3.00 is considered very good. The opposite can be said for anything with a Sharpe Ratio below 1.00, where it may worry an investor that they are putting their money into a more risky asset.
+ 
+ 
+ 
  ## ![Combined Stocks Risk Analysis](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Risk%20Analysis.JPG)
  
- In comparision of the three stocks, TSLA has some outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are mor condensed.  
+ In comparision of the three stocks, TSLA has the most outliers; what this suggests is that during the period being considered, same stock 'over-perform' and as well 'under-perform' in relation to where the bulk of the rest data values. The enclosed area where signifies 50% of the data is resident lies within the box. In respect of the box plot, SPY has the narrowest box that indicates the data are mor condensed.  
  
  
   # Part 8 : Cumulative Return
@@ -147,14 +155,17 @@ A cumulative return on an investment is the aggregate amount that the investment
 
 # Summary
 
-Even with those mixed market moves, AMZN, SPY, and SPY continue to show strength and eventually pushed the major averages higher. Investors are moving into tech stocks broadly as U.S. Treasury yields took a dip of roughly 2 basis points as of writing. Amazon has gained 4% as its first cashierless coffeeshop, which it partnered on with Starbucks, opened in New York. It also got a lift from continued positive momentum in retail, particularly in digital.
+Overall the outcomes of AMZN, TSLA, and SPY continue to show strength and eventually pushed the major averages higher. 
+In spite of mediocre third-quarter earnings report has left its stock, up 8.6% in 2021 badly lagging the S&P 500’s 39% pop for the year, according to MarketWatch. Amazon’s 2021 stock price performance is way short of its 33.2% average annual increase in the decade ending 2020.  Having said, with profound advances in data, analytics, and digital technology, the gain has brought its market cap of $1.806 Trillion.
+
+This is partly driven by investors moving into tech stocks broadly as U.S. Treasury yields took a dip of roughly 2 basis points as of writing. Amazon has gained 4% as its first cashierless coffeeshop, which it partnered on with Starbucks, opened in New York. It also got a lift from continued positive momentum in retail, particularly in digital - Amazon’s Services, notably AWS which is growing rapidly and generate considerable profits.   
+
+Earnings results for the quarter ended September 2021 (Q3) from the leading public cloud providers, such as Amazon has confirmed the continuing strong demand for cloud services.  Amazon’s AWS reported +39% increase in revenue year-on-year and continues to lead the fast-growing cloud infrastructure-as-a-service market with 41% global market share. This ongoing strong demand for public cloud is driven by accelerating digital transformation across the broad corporate world, which underpins corporate spending on software and cloud solutions across industries. This is increasingly relevant to companies with rising cost structures, which are now investing in cost rationalisation initiatives through digital transformation. 
+ 
 
 
-AMZN shares surged 8.3% after the company reported beats on the top and bottom lines and issued a bullish revenue forecast for the current quarter ending in January. The chipmaker saw a 55% gain in data center sales from the same period a year ago and a 42% increase in gaming, its biggest market. The gain brought its market value to $791 billion.
 
 
 
 
-
-
-Disclaimer: This is far from a financial advice on whether a particular stock is a better one or not but rather a sort of analysis on gaining an insight into performance and consistency of stocks data over a specified length of time.  In essence, there is the exploratory data analysis, there is the predictive data analysis, using statistics to gain insights from data however could be said to fall within the sphere of descriptive data analysis which is to show or summarize data in a meaningful way but not really giving an overall conclusions regarding same.
+Disclaimer: This material contains general market commentary.  It does not constitute investment research or personal advice. The opinions expressed are based exploratory data analysis and predictive data analysis.
