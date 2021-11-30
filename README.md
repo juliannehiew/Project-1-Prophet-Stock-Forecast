@@ -31,14 +31,30 @@ Identify the calculations that can be done with datetime data
  Plot AMZN stock price
  ## ![Amazon Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20Share%20Prices.JPG?raw=true)
   
-  Plot TSLA stock price
+ Plot TSLA stock price
  ## ![Tesla Share price](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Share%20Prices.JPG?raw=true) 
 
   
   
+  
+  Volume Traded and Interpretation for AMZN
   Plot AMZN Trading Volume - 1month, 6months, YTD, 1 year,All
   ## ![AMZ Tading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/AMZN%20Trading%20Volume.jpg)
   
+  Interesting finding on , it appears that AMZN had a really big spike somewhere in April 2020. 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Plot TSLA Trading Volume - 1month, 6months, YTD, 1 year,All
+  ## ![TSLA Tading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Trading%20Volume.JPG)
   
   
   
