@@ -100,7 +100,7 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
  ## ![Rolling Statistics - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Rolling%20Statitics%2030%20Days.JPG)
  
  
- ## ![Density Plot - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Density%20Daily%2030%Returns.JPG)
+ ## ![Density Plot - AMZN](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20-%20Density%20Daily%20Returns.JPG)
  
 
  
