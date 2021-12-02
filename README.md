@@ -2,7 +2,7 @@
 # Time Series Forecast with Prophet
 
 ## Introduction:
-This is a simple kernel in which we will forecast stock prices using Prophet. Although historical prices do not represent the future prices, interpreting historical prices can enhance the insights into overperform or underperform and identify the degree of volatility of the stock prices.  
+This is a simple kernel in which we will forecast stock prices using Prophet. Although historical prices do not represent the future prices, interpreting historical prices can enhance the insights into overperform or underperform, and identify the level of volatility of the stock prices discussed in this analysis.  
 
 
 ## A Summary about Prophet:
@@ -19,7 +19,7 @@ Collect Investments Data Using Alpaca: AMZN, TSLA, SPY
 
   
  # Part 2: Data Cleaning 
-Create DataFrames from CSV files and use basic commands to manipulate them.
+Create DataFrames from CSV files and use basic commands to manipulate the data.
 Clean data using the DataFrame built-in commands.
 Manipulate data using DataFrame indexes.
 Describe the basic theory and calculations of returns using Pandas.
@@ -61,7 +61,7 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
   
   
   Volume Traded and Interpretation 
-  TSLA Trading Volume - 1month, 6months, YTD, 1 year,All
+  TSLA Trading Volume - 1month, 6months, YTD, 1 year, all
   ## ![TSLA Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20Trading%20Volume.JPG)
   
   
@@ -161,7 +161,7 @@ A cumulative return on an investment is the aggregate amount that the investment
 
 
 
-# AMAZON PROPHET FORECAST ANALYSIS STARTS
+# Part 9: AMAZON PROPHET FORECAST ANALYSIS STARTS
 
 Amazon Stock Price Forecast
 ## ![Amazon Stock Price Forecast](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Amazon%20Stock%20Price%20Forecast.JPG)
@@ -172,11 +172,13 @@ Amazon Stock Price Forecast
 # Summary
 
 Overall the outcomes of AMZN, TSLA, and SPY continue to show strength and eventually pushed the major averages higher. 
-In spite of mediocre third-quarter earnings report has left its stock, up 8.6% in 2021 badly lagging the S&P 500’s 39% pop for the year, according to MarketWatch. Amazon’s 2021 stock price performance is way short of its 33.2% average annual increase in the decade ending 2020.  Having said, with profound advances in data, analytics, and digital technology, the gain has brought its market cap of $1.806 Trillion.
+The key takeaways are Amazon has grown to be one of the most successful companies in the world, grabbing the market share not only in retail but cloud computing, media, and entertainment. Its profound advances in data, analytics, and digital technology, has contributed to its market cap of $1.806 Trillion.  Amazon has confirmed the continuing strong demand for cloud services reporting +39% increase in revenue year-on-year and continues to lead the fast-growing cloud infrastructure-as-a-service market with 41% global market share. This ongoing strong demand for public cloud is driven by accelerating digital transformation across the broad corporate world, which underpins corporate spending on software and cloud solutions across industries. This is increasingly relevant to companies with rising cost structures, which are now investing in cost rationalisation initiatives through digital transformation. 
 
-This is partly driven by investors moving into tech stocks broadly as U.S. Treasury yields took a dip of roughly 2 basis points as of writing. Amazon has gained 4% as its first cashierless coffeeshop, which it partnered on with Starbucks, opened in New York. It also got a lift from continued positive momentum in retail, particularly in digital - Amazon’s Services, notably AWS which is growing rapidly and generate considerable profits.   
+This drives the stock price further uptrend, especially when the investors move into tech stocks broadly as U.S. Treasury yields took a dip of roughly 2 basis points as of writing. Amazon has gained 4% as its first cashierless coffeeshop, which it partnered on with Starbucks, opened in New York. It also got a lift from continued positive momentum in retail, particularly in digital - Amazon’s Services, notably AWS which is growing rapidly and generate considerable profits.   
 
-Earnings results for the quarter ended September 2021 (Q3) from the leading public cloud providers, such as Amazon has confirmed the continuing strong demand for cloud services.  Amazon’s AWS reported +39% increase in revenue year-on-year and continues to lead the fast-growing cloud infrastructure-as-a-service market with 41% global market share. This ongoing strong demand for public cloud is driven by accelerating digital transformation across the broad corporate world, which underpins corporate spending on software and cloud solutions across industries. This is increasingly relevant to companies with rising cost structures, which are now investing in cost rationalisation initiatives through digital transformation. 
+Despite its success, the company remains open to competitors as well as razor-thin profit margins.
+
+The company's stock has a beta of around 1.3 and trailing Price/Earning ration of 138x, considering it as a highly specualtive investment fueled by anticipation of even greater growth ahead (Investopedia, 2020).
  
 
 
