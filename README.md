@@ -109,7 +109,14 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
  
  Standard deviation is a useful tool in investing and trading strategies as it helps measure market and security volatility and predicts performance trends.  Despite a lower standard deviation represents a stable blue-chip stock, it isn't necessarily preferable. It all depends on the investments and the investor's willingness to assume risk. When dealing with the amount of deviation in their portfolios, investors should consider their tolerance for volatility and their overall investment objectives. More aggressive investors may be comfortable with an investment strategy that opts for vehicles with higher-than-average volatility, while more conservative investors may not.  
  
- With reference to the chart, TSLA has a high standard deviation particularly during May and September 2020.  As such it is regarded as a volatile stock.  One of the factors contributing to the soaring prices during April/May 2020 is driven by the positive news on the expansion of Tesla's Shanghai factory.  Following this, the analysts have upgraded the stock price, which led to a price surge as a result. 
+ 
+ Rolling Statistics - TSLA
+ ## ![Rolling Statistics - TSLA](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20-%20Rolling%20Statitics%2030%20Days.JPG)
+ 
+ Standard Deviation - TSLA
+ ## ![Standard Deviation - TSLA](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Tesla%20-%20Standard%20Deviation%2030%20Days.JPG)
+ 
+ With reference to the charts, TSLA has a high standard deviation particularly during May and September 2020.  As such it is regarded as a volatile stock.  One of the factors contributing to the soaring prices during April/May 2020 is driven by the positive news on the expansion of Tesla's Shanghai factory.  Following this, the analysts have upgraded the stock price, which led to a price surge as a result. 
  
  Having said, the drawback of standard deviation assumes a normal distribution and calculates all uncertainty as risk. 
   
