@@ -46,7 +46,7 @@ Manipulate datetime data in single variable, DataFrame columns, and Series forma
   Amazon shares surge in April 2020 and the highest trading volume recorded. 
   
   
-  ## ![AMZ Highest Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/AMZN%20Highest%20Traded%20Volume.JPG)
+  ## ![AMZ Highest Trading Volume](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/images/AMZN%20Highest%20Traded%20Volume.JPG)
   This is due to the pandemic hit in the early 2020. According to the Fortune (2021), when the pandemic hit last year, most of corporate America got caught flat-footed. More than 200,000 businesses, including many restaurants and retailers, permanently shuttered owing to COVID-19. Amazon, meanwhile kept on growing , bcoming much more massive. Even in the face of supply chain slowdowns, a tight labor market, and COVID-19 outbreaks in its facilities, Amazon has become the go-to source over the past two years for people around the globe looking for everything from essential goods like laundry detergent and toilet paper to work-from-home necessities such as soundproof headphones.
 
 
