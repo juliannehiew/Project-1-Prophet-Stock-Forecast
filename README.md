@@ -133,7 +133,7 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
    Moving averages are an important analytical tool used to identify current price trends and the potential for a change in an established trend. The simplest use of a Simple Moving Average in technical analysis is using it to quickly identify if a security is in an uptrend or downtrend. Another popular, albeit slightly more complex, analytical use is to compare a pair of simple moving averages with each covering different time frames. If a shorter-term simple moving average is above a longer-term average, an uptrend is expected. On the other hand, if the long-term average is above a shorter-term average then a downtrend might be the expected outcome.
   
  
- # Part 6: Volatity
+ # Part 6: Volatility
  Which stock is the most volatile?
  
  ## ![Combined Stocks Daily Return](https://github.com/juliannehiew/Project-1-Prophet-Stock-Forecast/blob/main/Combined%20Stocks%20-%20Daily%20Returns.JPG)
@@ -155,7 +155,7 @@ Meanwhile, Tesla operates through two segments: Automotive, and Energy generatio
   
   
   
-  # Part 7: Comparision of Stock Performance
+  # Part 7: Comparison of Stock Performance
   
  One of the most commonly used and talked about risk measures in investing is the Sharpe Ratio. Sharpe Ratio tells an analyst the return per unit of risk. In other words, how much extra return you will receive per unit of risk that you take on.  Any Sharpe Ratio above 1.00 generally means the portfolio or stock is acceptable to hold because you are receiving an excess return per unit of risk. Anything above 2.00 or 3.00 is considered very good. The opposite can be said for anything with a Sharpe Ratio below 1.00, where it may worry an investor that they are putting their money into a more risky asset.
  
